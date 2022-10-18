@@ -1,2 +1,3 @@
 # printf
-Tests 1 - 2 by arnold
+
+main.h - [Header File] Contains all the function prototypes.
