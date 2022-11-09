@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+	char a[] = "I love Me ";
+	char b[] = "";
+
+	char *portion = strtok(a, b);
+
+	while (portion != NULL)
+	{
+		printf("%s\n", portion);
+		portion = strtok(NULL, b);
+	}
+	return (0);
+}
